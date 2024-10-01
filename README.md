@@ -79,15 +79,15 @@ These are the plots of torque, angles and tip displacement profiles.
 
 *T = 1 s, No Payload*
 
-<img src="images/tau_angles_tipdis_T1.gif" alt="Alt Text" width="600">
+<img src="images/tau_angles_tipdis_T1.gif" alt="Alt Text" width="750">
 
 *T = 0.5 s, No Payload*
 
-<img src="images/tau_angles_tipdis_T05.gif" alt="Alt Text" width="600">
+<img src="images/tau_angles_tipdis_T05.gif" alt="Alt Text" width="750">
 
 *T = 1 s, Payload m = 2kg*
 
-<img src="images/tau_angles_tipdis_T1_p2.gif" alt="Alt Text" width="600">
+<img src="images/tau_angles_tipdis_T1_p2.gif" alt="Alt Text" width="750">
 
 
 # Authors
