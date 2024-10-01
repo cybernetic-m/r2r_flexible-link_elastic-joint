@@ -60,18 +60,34 @@ The results showed are in the case of motion time **T = 1 s** or **T = 0.5 s** a
 This is the stroboscopic view of the planar motion of the flexible arm in the 3 cases. The rotor motion is represented by the black arrow at the base of the link.
 
 *T = 1 s, No Payload*
-<img src="images/stroboscopic_view_T1.gif" alt="Alt Text" width="600">
+
+<img src="images/stroboscopic_view_T1.gif" alt="Alt Text" width="400">
 
 *T = 0.5 s, No Payload*
-<img src="images/stroboscopic_view_T05.gif" alt="Alt Text" width="600">
+
+<img src="images/stroboscopic_view_T05.gif" alt="Alt Text" width="400">
 
 *T = 1 s, Payload m = 2kg*
-<img src="images/stroboscopic_view_T1_p2.gif" alt="Alt Text" width="600">
+
+<img src="images/stroboscopic_view_T1_p2.gif" alt="Alt Text" width="400">
 
 
 **Quantities**
 
-<img src="images/torque.png" alt="Alt Text" width="600">
+These are the plots of torque, angles and tip displacement profiles. 
+
+
+*T = 1 s, No Payload*
+
+<img src="images/tau_angles_tipdis_T1.gif" alt="Alt Text" width="400">
+
+*T = 0.5 s, No Payload*
+
+<img src="images/stroboscopic_view_T05.gif" alt="Alt Text" width="400">
+
+*T = 1 s, Payload m = 2kg*
+
+<img src="images/tau_angles_tipdis_T1_p2.gif" alt="Alt Text" width="400">
 
 
 # Authors
