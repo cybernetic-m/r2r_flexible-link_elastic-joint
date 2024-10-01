@@ -40,22 +40,22 @@ src
 
 **Stroboscopic View**
 
-<img src="images/strobo.png" alt="Alt Text" width="300">
+<img src="images/strobo.png" alt="Alt Text" width="600">
 
 
 **Torque command**
 
-<img src="images/torque.png" alt="Alt Text" width="400">
+<img src="images/torque.png" alt="Alt Text" width="600">
 
 
 **Tip Displacement**
 
-<img src="images/tip_displacement.png" alt="Alt Text" width="400">
+<img src="images/tip_displacement.png" alt="Alt Text" width="600">
 
 
 **Angles**
 
-<img src="images/angles.png" alt="Alt Text" width="400">
+<img src="images/angles.png" alt="Alt Text" width="600">
 
 # Authors
 
@@ -80,4 +80,4 @@ Control, vol. 112, no. 1, pp. 76–82, 1990.](https://www.academia.edu/56942661/
 
 [5]. [A. De Luca and G. Di Giovanni, “Rest-to-rest motion of a one-link
 flexible arm,” in Proc. IEEE/ASME Int. Conf. on Advanced Intelligent
-Mechatronics, pp. 923–928, 2001.] (https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=936793)
+Mechatronics, pp. 923–928, 2001.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=936793)
