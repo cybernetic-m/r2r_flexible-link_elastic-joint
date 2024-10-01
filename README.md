@@ -61,15 +61,15 @@ This is the stroboscopic view of the planar motion of the flexible arm in the 3 
 
 *T = 1 s, No Payload*
 
-<img src="images/stroboscopic_view_T1.gif" alt="Alt Text" width="400">
+<img src="images/stroboscopic_view_T1.gif" alt="Alt Text" width="450">
 
 *T = 0.5 s, No Payload*
 
-<img src="images/stroboscopic_view_T05.gif" alt="Alt Text" width="400">
+<img src="images/stroboscopic_view_T05.gif" alt="Alt Text" width="450">
 
 *T = 1 s, Payload m = 2kg*
 
-<img src="images/stroboscopic_view_T1_p2.gif" alt="Alt Text" width="400">
+<img src="images/stroboscopic_view_T1_p2.gif" alt="Alt Text" width="450">
 
 
 **Quantities**
@@ -79,15 +79,15 @@ These are the plots of torque, angles and tip displacement profiles.
 
 *T = 1 s, No Payload*
 
-<img src="images/tau_angles_tipdis_T1.gif" alt="Alt Text" width="400">
+<img src="images/tau_angles_tipdis_T1.gif" alt="Alt Text" width="600">
 
 *T = 0.5 s, No Payload*
 
-<img src="images/stroboscopic_view_T05.gif" alt="Alt Text" width="400">
+<img src="images/tau_angles_tipdis_T05.gif" alt="Alt Text" width="600">
 
 *T = 1 s, Payload m = 2kg*
 
-<img src="images/tau_angles_tipdis_T1_p2.gif" alt="Alt Text" width="400">
+<img src="images/tau_angles_tipdis_T1_p2.gif" alt="Alt Text" width="600">
 
 
 # Authors
