@@ -18,9 +18,13 @@ Since the two phenomena interact and link mode shapes are also affected by the e
  "https://it.mathworks.com/products/new_products/release2023b.html"
  ```
 3. Open src directory
- ```sh 
- cd src
- ```
+
+4. **Run** *init.m* to initialize Matlab/Simulink
+
+5. **Open** *simulation.slx* and **Run** the simulation
+
+6. **Run** *plotSimulation.m* to plot the Stroboscopic View
+
 
 # Project Structure 
 
@@ -31,35 +35,52 @@ src
 ├── getTrajectory.m => Function to plan the trajectory of the robot
 ├── init.m => Function to initialize the simulation
 ├── plotSimulation.m => Function to plot the stroboscopic view motion
+├── realTimePlot.m => Function to plot in a video the variables
 ├── simulation.slx => Simulink file for the simulation
 ```
     
 # Simulations
 
+We performed numerical simulations in MATLAB on a flexible arm having the following parameters:
+1. Rotor Inertia: **IR = 1 kg·m^2** 
+2. Spring Stiffness **k= 100 Nm/rad** 
+3. Length of the arm: **l= 0.7 m** 
+4. Linear density: **ρ= 4 kg/m** 
+5. Flexural Rigidity: **EI = 0.6 N·m^2**
 
+The modal analysis is done taking in consideration **n=3** modes.
+
+The rest-to-rest motion is from **θi = 0 rad** to **θf= π/2 rad**.
+A polynomial of degree **15** has been used for trajectory planning. 
+
+The results showed are in the case of motion time **T = 1 s** or **T = 0.5 s** and in the case of payload mass **m = 2 kg** or no payload **m= 0 kg**
 
 **Stroboscopic View**
 
-<img src="images/strobo.png" alt="Alt Text" width="600">
+This is the stroboscopic view of the planar motion of the flexible arm in the 3 cases. The rotor motion is represented by the black arrow at the base of the link.
+
+*T = 1 s, No Payload*
+<img src="images/stroboscopic_view_T1.gif" alt="Alt Text" width="600">
+
+*T = 0.5 s, No Payload*
+<img src="images/stroboscopic_view_T05.gif" alt="Alt Text" width="600">
+
+*T = 1 s, Payload m = 2kg*
+<img src="images/stroboscopic_view_T1_p2.gif" alt="Alt Text" width="600">
 
 
-**Torque command**
+**Quantities**
 
 <img src="images/torque.png" alt="Alt Text" width="600">
 
 
-**Tip Displacement**
-
-<img src="images/tip_displacement.png" alt="Alt Text" width="600">
-
-
-**Angles**
-
-<img src="images/angles.png" alt="Alt Text" width="600">
-
 # Authors
 
+1. Massimo Romano (romano.2043836@studenti.uniroma1.it)
 
+2. Luca Murra (murra.1920342@studenti.uniroma1.it)
+
+3. Alessandro De Luca (deluca@diag.uniroma1.it)
 
 # References
 [1]. [F. Bellezza, L. Lanari, and G. Ulivi, “Exact modeling of the flexible
