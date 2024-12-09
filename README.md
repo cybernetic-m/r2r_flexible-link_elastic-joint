@@ -89,6 +89,7 @@ These are the plots of torque, angles and tip displacement profiles.
 
 <img src="images/tau_angles_tipdis_T1_p2.gif" alt="Alt Text" width="750">
 
+A video is available on my [Youtube channel](https://www.youtube.com/watch?v=wB1j_jsUJWY). 
 
 # Authors
 
